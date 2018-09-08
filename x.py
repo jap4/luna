@@ -57,7 +57,7 @@ def slowprint(s):
 def main_menu():
        clear()
        slowprint(W + '#'*45)
-       slowprint(W + '     -== '+gt+'Menu Tremos Luna'+W+' ==-')
+       slowprint(W + '         -== '+gt+'Menu Tremos Luna'+W+' ==-')
        slowprint(W + '#'*45)
        print(W + '# ' + str(time.strftime('%a, %d %B %Y')))
        print(W + '# Provider gsm Operator ' + C + str(os.popen('getprop gsm.operator.alpha').read().split('\n')[0]))
