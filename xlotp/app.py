@@ -48,7 +48,7 @@ l="tunggu ya bro.."
 
 def main_menu():
     clear()
-    slowprints(temus)
+    slowprints(luna)
     print(p+
         "   Tembak Xl Mode Otp" +
         "\nPilih Salah Satu:"
