@@ -7,5 +7,5 @@
     
     Easy install
     1.Download termux di play store
-    2.ketik "pkg install python;pkg install git;git clone https://github.com/jap4/luna.git;cd temus;python x.py"(tanpa tanda petik") lalu enter
+    2.ketik "pkg install python;pkg install git;git clone https://github.com/jap4/luna.git;cd luna;python x.py"(tanpa tanda petik") lalu enter
 thank's
