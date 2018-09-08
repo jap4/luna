@@ -41,17 +41,10 @@ def lodprint(s):
         sys.stdout.flush()
         time.sleep(7.0/90)
 
-temus=(gt+"""
-####### ####### #     # #     #  #####
-   #    #       ##   ## #     # #     #
-   #    #       # # # # #     # #    
-   #    #####   #  #  # #     #  #####   
-   #    #       #     # #     #       #
-   #    #       #     # #     # #     #
-   #    ####### #     #  #####   #####   
-    =================================
+luna=(gt+"""
+##############################
 """)
-l="tunggu ya.."
+l="tunggu ya bro.."
 
 def main_menu():
     clear()
@@ -82,14 +75,14 @@ def exec_menu(choice):
 def menu_1():
     lodprint(l)
     clear()
-    print(temus)
+    print(luna)
     print(p+"Menu Beli Paket Xl")
     msisdn = str(input("Masukan No 62xx 👉 "))
     clear()
-    print(temus)
+    print(luna)
     po = str(input(p+"Masukan Kode Otp 👉 "))
     clear()
-    print(temus)
+    print(luna)
     print (p+" 1.Xtra Kuota 30GB Rp. 10.000")
     print (p+" 2.Xtra 3GB 30day 22.900 ")
     print (p+" 3.Xtra 5GB 30day 32.900 ")
@@ -133,7 +126,7 @@ def menu_1():
 def menu_2():
     lodprint(l)
     clear()
-    print(temus)
+    print(luna)
     print(p+"Minta Kode Otp")
     msisdn = str(input("Masukan Nomor 62xx👉"))
     lodprint(l)
