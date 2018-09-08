@@ -94,8 +94,8 @@ def menu_1():
     print (p+" 2.Xtra 3GB 30day 22.900 ")
     print (p+" 3.Xtra 5GB 30day 32.900 ")
     print (p+" 4.Xtra 9GB 30day 52.900 ")
-    print (p+" 5.Xtra 17GB 30day 82.900 ")
-    print (p+" 6.Xtra 25GB 30day 102.900 ")
+    print (p+" 5.hotdisk 3gb/1bln 30.000 ")
+    print (p+" 6.hotdisk 6gb/1bln 50.000 ")
     print (p+" 7.Kuota 700mb 10k")
     print (p+" 8.xtra 10GB 30day 59k")
     print (p+" 9.Manual service id")
@@ -110,9 +110,9 @@ def menu_1():
     elif pkt == '4':
         i = '8211012'
     elif pkt == '5':
-        i = '8211013'
+        i = '8211108'
     elif pkt == '6':
-        i = '8211014'
+        i = '8211109'
     elif pkt == '7':
         i = '8211170'
     elif pkt == '8':
