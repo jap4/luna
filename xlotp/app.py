@@ -98,8 +98,9 @@ def menu_1():
     print (p+" 6.hotdisk 6gb/1bln 50.000 ")
     print (p+" 7.Kuota 700mb 10k")
     print (p+" 8.xtra 10GB 30day 59k")
-    print (p+" 9.Manual service id")
-    pkt = str(input("Pilih Sesuai Keinginan >> "))
+    print (p+" 9.Xtra Kuota Waze&Chat,Rp500,1hr")
+    print (p+" 10.Manual service id")
+    pkt = str(input("Pilih Sesuai Duit >> "))
     
     if pkt == '1':
         i = '8110577'
@@ -118,6 +119,8 @@ def menu_1():
     elif pkt == '8':
         i = '8211183'
     elif pkt == '9':
+        i = '8211369'
+    elif pkt == '10':
         i = str(input("Service ID Paket👉"))
     else:
         print("Pilihan gak tercantum")
