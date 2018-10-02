@@ -97,13 +97,22 @@ def menu_1():
     print (p+" 5.hotdisk 3gb/1bln 30.000 ")
     print (p+" 6.hotdisk 6gb/1bln 50.000 ")
     print (p+" 7.Kuota 700mb 10k")
-    print (p+" 8.xtra 10GB 30day 59k")
-    print (p+" 9.Xtra Kuota Waze&Chat,Rp500,1hr")
-    print (p+" 10.Manual service id")
+    print (p+" 8.Kuota 700mb 10k")
+    print (p+" 9.xtra 10GB 30day 59k")
+    print (p+" 10.Xtra Kuota Waze&Chat,Rp500,1hr")
+    print (p+" 11.Paket Vivo V9 RP 9RB/30HARI")
+    print (p+" 12.YUTUB Area tertentu RP. 1RB 15GB/30Hari")
+    print (p+" 13.Internet unli Rp. 500/Hari")
+    print (p+" 14.sms rp.1/Hari")
+    print (p+" 15.Gratis Tlp 3 Hari")
+    print (p+" 16.Cek Sendiri Gratis")
+    print (p+" 17.Cek Sendiri Gratis")
+    print (p+" 18.Xtra ComboLite RP. 22.900 3.5GB/30Hari")
+    print (p+" 19.Manual service id")
     pkt = str(input("Pilih Sesuai Duit >> "))
     
     if pkt == '1':
-        i = '8110577'
+        i = '8110671'
     elif pkt == '2':
         i = '8211010'
     elif pkt == '3':
@@ -121,6 +130,24 @@ def menu_1():
     elif pkt == '9':
         i = '8211369'
     elif pkt == '10':
+        i = '8211170'
+    elif pkt == '11':
+        i = '8110619'
+    elif pkt == '12':
+        i = '8110649'
+    elif pkt == '13':
+        i = '8110528'
+    elif pkt == '14':
+        i = '1210026'
+    elif pkt == '15':
+        i = '8110490'
+    elif pkt == '16':
+        i = '8211371'
+    elif pkt == '17':
+        i = '8211011'
+    elif pkt == '18':
+        i = '8211121'
+    elif pkt == '19':
         i = str(input("Service ID Paket👉"))
     else:
         print("Pilihan gak tercantum")
