@@ -90,7 +90,7 @@ def menu_1():
     po = str(input(p+"Masukan Kode Otp 👉 "))
     clear()
     print(luna)
-    print (p+" 1.Xtra Kuota 30GB Rp. 10.000")
+    print (p+" 1.Xtra Kuota 30GB Rp. 11.900")
     print (p+" 2.Xtra 3GB 30day 22.900 ")
     print (p+" 3.Xtra 5GB 30day 32.900 ")
     print (p+" 4.Xtra 9GB 30day 52.900 ")
@@ -108,7 +108,10 @@ def menu_1():
     print (p+" 16.Cek Sendiri Gratis")
     print (p+" 17.Cek Sendiri Gratis")
     print (p+" 18.Xtra ComboLite RP. 22.900 3.5GB/30Hari")
-    print (p+" 19.Manual service id")
+    print (p+" 19.Waze & Chat, Rp1rb,3hr")
+    print (p+" 20.Xtragram 5GB, 3hr")
+    print (p+" 21.XTRA YouTube 12bln, 1GB")
+    print (p+" 22.Manual service id")
     pkt = str(input("Pilih Sesuai Duit >> "))
     
     if pkt == '1':
@@ -128,9 +131,9 @@ def menu_1():
     elif pkt == '8':
         i = '8211183'
     elif pkt == '9':
-        i = '8211369'
+        i = '8211014'
     elif pkt == '10':
-        i = '8211170'
+        i = '8211369'
     elif pkt == '11':
         i = '8110619'
     elif pkt == '12':
@@ -148,6 +151,12 @@ def menu_1():
     elif pkt == '18':
         i = '8211121'
     elif pkt == '19':
+        i = '8211370'
+    elif pkt == '20':
+        i = '8110624'
+    elif pkt == '21':
+        i = '8210949'
+    elif pkt == '22':
         i = str(input("Service ID Paket👉"))
     else:
         print("Pilihan gak tercantum")
