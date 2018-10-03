@@ -51,7 +51,7 @@ luna=(gt+"""
  #####   #####  #     # #     #   
 ===============================
 """)
-l="tunggu ya bro.."
+l="entenono jo.."
 
 def main_menu():
     clear()
